@@ -59,19 +59,6 @@ def convert(VIA_ORIGINAL_ANNOTATIONS_NAME, imgdir, annpath):
     :return: coco_output is a dictionary of coco style which you could dump it into a json file
     as for keywords 'info','licenses','categories',you should modify them manually
     """
-    type_eng = {"中性杆状核粒细胞": "neutrophilic band cell", "中性中幼粒细胞": "neutrophilic myelocyte",
-                "成熟淋巴细胞": "Mature lymphocyte", "中性分叶核粒细胞": "segmented neutrophil",
-                "晚幼红细胞": "metarubricyte", "中性晚幼粒细胞": "metamyelocyte",
-                "晚幼紅細胞(子母核)": "metarubricyte(cell_division)", "成熟单核细胞": "mature monocyte",
-                "中幼红细胞": "polychromatic normoblast", "幼稚单核细胞": "juvenile monocyte",
-                "早幼红细胞": "prorubricyte", "幼红细胞分裂相": "prorubricyte(cell_division)",
-                "嗜酸性粒细胞分叶核": "eosinophilic segmented granulocyte", "嗜碱性粒细胞": "basophilic granulocyte",
-                "成熟浆细胞": "Mature plasma", "嗜酸性晚幼粒细胞": "Eosinophilic Metamyelocyte",
-                "原始红细胞": "Proerythroblast", "原始淋巴细胞": "primitive lymphocyte"}
-
-    super_type_eng = {"紅細胞系": "Red_blood_cells", "粒細胞系": "granulocyte", "嗜酸粒細胞系": "Eosinophils",
-                      "嗜碱粒细胞系": "basophils", "巨核細胞系": "Megakaryocyte",
-                      "淋巴細胞系": "Lymphocyte", "巨噬細胞系": "Macrophage"}
 
     # get the name(type) and supercategory(super_type) from VIA ANNOTATION
     annotations = json.load(open(VIA_ORIGINAL_ANNOTATIONS_NAME))
@@ -105,13 +92,13 @@ def convert(VIA_ORIGINAL_ANNOTATIONS_NAME, imgdir, annpath):
 
     # coco_output['categories'] = [{
     #     'id': 1,
-    #     'name': "neutrophilic band cell",
-    #     'supercategory': "granulocyte",
+    #     'name': "中性杆状核粒细胞",
+    #     'supercategory': "粒細胞系",
     #     },
     #     {
     #         'id': 2,
-    #         'name': 'neutrophilic myelocyte',
-    #         'supercategory': 'granulocyte',
+    #         'name': '中性中幼粒细胞',
+    #         'supercategory': '粒細胞系',
     #     },
     #                 .
     #                 .
@@ -123,8 +110,8 @@ def convert(VIA_ORIGINAL_ANNOTATIONS_NAME, imgdir, annpath):
     coco_output['categories'] = []
     for i in range(len(name_supercategory_dict)):
         category = {'id': i + 1,
-                    'name': type_eng[list(name_supercategory_dict)[i]],
-                    'supercategory': super_type_eng[name_supercategory_dict[list(name_supercategory_dict)[i]]]
+                    'name': list(name_supercategory_dict)[i],
+                    'supercategory': name_supercategory_dict[list(name_supercategory_dict)[i]]
                     }
         coco_output['categories'].append(category)
     coco_output['images'] = []
@@ -145,11 +132,7 @@ def convert(VIA_ORIGINAL_ANNOTATIONS_NAME, imgdir, annpath):
         regions = ann[key]["regions"]
         # for one image ,there are many regions,they share the same img id
         for region in regions:
-            # TODO: can change from 'name(type)' to 'supercategory(super_type)', training 'supercategory(super_type)'
-            # Chinese type
             cate = region['region_attributes']['type']
-            # change to English type
-            cate = type_eng[cate]
             # cate must in categories
             assert cate in [i['name'] for i in coco_output['categories']]
             # get the cate_id
@@ -179,6 +162,7 @@ def convert(VIA_ORIGINAL_ANNOTATIONS_NAME, imgdir, annpath):
     return coco_output
 
 
+# automatic split train and val
 def train_val_split(annos_name, original_dir, train_dir, val_dir, move):
     annotations = json.load(open(annos_name))
     annotations = list(annotations.values())
@@ -223,7 +207,7 @@ def train_val_split(annos_name, original_dir, train_dir, val_dir, move):
     return train_annos, val_annos
 
 
-def main():
+if __name__ == '__main__':
     # get VIA annotations
     VIA_train_annos, VIA_val_annos = train_val_split(ANNOTATIONS_NAME, CELL_DATASET_ORIGINAL_IMG_PATH,
                                                      CELL_DATASET_TRAIN_IMG_PATH, CELL_DATASET_VAL_IMG_PATH, move=True)
@@ -246,7 +230,3 @@ def main():
 
     with open(CELL_DATASET_VAL_IMG_PATH + 'COCO_val_annos.json', 'w') as outfile:
         json.dump(COCO_val_annos, outfile, sort_keys=True, indent=4)
-
-
-if __name__ == '__main__':
-    main()
