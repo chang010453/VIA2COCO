@@ -60,7 +60,8 @@ def convert(VIA_ORIGINAL_ANNOTATIONS_NAME, imgdir, annpath):
     as for keywords 'info','licenses','categories',you should modify them manually
     """
 
-    # get the name(type) and supercategory(super_type) from VIA ANNOTATION
+    # Get the name(type) and supercategory(super_type) from VIA ANNOTATION
+    # You need to modify the attributes depend on your VIA format
     annotations = json.load(open(VIA_ORIGINAL_ANNOTATIONS_NAME))
     annotations = list(annotations.values())  # don't need the dict keys
     annotations = [a for a in annotations if a['regions']]
@@ -71,7 +72,7 @@ def convert(VIA_ORIGINAL_ANNOTATIONS_NAME, imgdir, annpath):
         for index, name in enumerate(names):
             if name not in name_supercategory_dict.keys():
                 name_supercategory_dict[name] = supercategories[index]
-
+                
     coco_output = {}
     coco_output['info'] = {
         "description": "Cell Dataset",
@@ -223,7 +224,8 @@ if __name__ == '__main__':
                                CELL_DATASET_TRAIN_IMG_PATH + 'VIA_train_annos.json')
     COCO_val_annos = convert(ANNOTATIONS_NAME, CELL_DATASET_VAL_IMG_PATH,
                              CELL_DATASET_VAL_IMG_PATH + 'VIA_val_annos.json')
-
+    
+    # save COCO annotations
     with open(CELL_DATASET_TRAIN_IMG_PATH + 'COCO_train_annos.json', 'w') as outfile:
         json.dump(COCO_train_annos, outfile, sort_keys=True, indent=4)
 
