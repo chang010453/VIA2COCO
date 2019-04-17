@@ -105,7 +105,6 @@ def convert(VIA_ORIGINAL_ANNOTATIONS_NAME, imgdir, annpath):
     #                 .
     # ]
 
-    # TODO: can change from 'name(type)' to 'supercategory(super_type)', training 'supercategory(super_type)'
     # get the coco category from dict
     coco_output['categories'] = []
     for i in range(len(name_supercategory_dict)):
