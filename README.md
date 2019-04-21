@@ -8,5 +8,6 @@ Base on the repos below:
 Add some new features:
 1. Can automatically create COCO's catagories.
 2. Randomly split (train/val)(80/20) annotations
+3. Merge two JSON file(merge.py)
 
 ***You need to modify convert.py depend on your VIA format's Attributes.
