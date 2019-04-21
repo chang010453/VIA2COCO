@@ -6,8 +6,8 @@
             {
                 "region_attributes": {
                     "name": "cell",
-                    "super_type": "粒細胞系",
-                    "type": "中性杆状核粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u6746\u72b6\u6838\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -74,8 +74,8 @@
             {
                 "region_attributes": {
                     "name": "cell",
-                    "super_type": "粒細胞系",
-                    "type": "中性杆状核粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u6746\u72b6\u6838\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -146,8 +146,8 @@
             {
                 "region_attributes": {
                     "name": "cell",
-                    "super_type": "粒細胞系",
-                    "type": "中性中幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u4e2d\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -226,8 +226,8 @@
             {
                 "region_attributes": {
                     "name": "cell",
-                    "super_type": "淋巴細胞系",
-                    "type": "成熟淋巴细胞"
+                    "super_type": "\u6dcb\u5df4\u7d30\u80de\u7cfb",
+                    "type": "\u6210\u719f\u6dcb\u5df4\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -284,8 +284,8 @@
             {
                 "region_attributes": {
                     "name": "cell",
-                    "super_type": "粒細胞系",
-                    "type": "中性分叶核粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u5206\u53f6\u6838\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -336,14 +336,155 @@
         ],
         "size": 344446
     },
+    "10.jpg": {
+        "file_attributes": {},
+        "filename": "10.jpg",
+        "regions": [
+            {
+                "region_attributes": {
+                    "name": "cell",
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u5e7c\u7ea2\u7ec6\u80de"
+                },
+                "shape_attributes": {
+                    "all_points_x": [
+                        1547,
+                        1604,
+                        1644,
+                        1671,
+                        1707,
+                        1723,
+                        1720,
+                        1730,
+                        1683,
+                        1647,
+                        1605,
+                        1523,
+                        1463,
+                        1403,
+                        1365,
+                        1331,
+                        1290,
+                        1276,
+                        1286,
+                        1289,
+                        1327,
+                        1367,
+                        1431
+                    ],
+                    "all_points_y": [
+                        1270,
+                        1298,
+                        1330,
+                        1375,
+                        1415,
+                        1449,
+                        1478,
+                        1569,
+                        1627,
+                        1654,
+                        1673,
+                        1677,
+                        1683,
+                        1676,
+                        1645,
+                        1604,
+                        1562,
+                        1531,
+                        1440,
+                        1378,
+                        1333,
+                        1299,
+                        1270
+                    ],
+                    "name": "polygon"
+                }
+            },
+            {
+                "region_attributes": {
+                    "name": "cell",
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u5e7c\u7ea2\u7ec6\u80de\u5206\u88c2\u76f8"
+                },
+                "shape_attributes": {
+                    "all_points_x": [
+                        1715,
+                        1776,
+                        1828,
+                        1888,
+                        1934,
+                        1975,
+                        1990,
+                        2006,
+                        2010,
+                        2013,
+                        2012,
+                        1997,
+                        1957,
+                        1934,
+                        1890,
+                        1831,
+                        1790,
+                        1748,
+                        1696,
+                        1645,
+                        1589,
+                        1550,
+                        1518,
+                        1485,
+                        1472,
+                        1474,
+                        1478,
+                        1496,
+                        1582,
+                        1627
+                    ],
+                    "all_points_y": [
+                        69,
+                        70,
+                        89,
+                        103,
+                        136,
+                        177,
+                        214,
+                        270,
+                        323,
+                        374,
+                        431,
+                        455,
+                        532,
+                        551,
+                        582,
+                        601,
+                        614,
+                        614,
+                        603,
+                        578,
+                        553,
+                        512,
+                        472,
+                        419,
+                        364,
+                        277,
+                        243,
+                        174,
+                        116,
+                        84
+                    ],
+                    "name": "polygon"
+                }
+            }
+        ],
+        "size": 284663
+    },
     "11.jpg": {
         "file_attributes": {},
         "filename": "11.jpg",
         "regions": [
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性晚幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u665a\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -399,8 +540,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "嗜酸粒細胞系",
-                    "type": "嗜酸性粒细胞分叶核"
+                    "super_type": "\u55dc\u9178\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u55dc\u9178\u6027\u7c92\u7ec6\u80de\u5206\u53f6\u6838"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -444,8 +585,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "嗜碱粒细胞系",
-                    "type": "嗜碱性粒细胞"
+                    "super_type": "\u55dc\u78b1\u7c92\u7ec6\u80de\u7cfb",
+                    "type": "\u55dc\u78b1\u6027\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -483,8 +624,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性中幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u4e2d\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -528,8 +669,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性中幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u4e2d\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -581,8 +722,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性晚幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u665a\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -637,8 +778,8 @@
         "regions": [
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性中幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u4e2d\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -690,8 +831,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "晚幼红细胞"
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u665a\u5e7c\u7ea2\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -746,341 +887,14 @@
         ],
         "size": 248906
     },
-    "13.jpg": {
-        "file_attributes": {},
-        "filename": "13.jpg",
-        "regions": [
-            {
-                "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "中幼红细胞"
-                },
-                "shape_attributes": {
-                    "all_points_x": [
-                        902,
-                        939,
-                        979,
-                        1005,
-                        1027,
-                        1069,
-                        1097,
-                        1069,
-                        1027,
-                        983,
-                        935,
-                        886,
-                        825,
-                        794,
-                        765,
-                        748,
-                        704,
-                        715,
-                        715,
-                        721,
-                        785
-                    ],
-                    "all_points_y": [
-                        532,
-                        521,
-                        534,
-                        583,
-                        622,
-                        658,
-                        741,
-                        794,
-                        834,
-                        875,
-                        913,
-                        904,
-                        869,
-                        867,
-                        849,
-                        798,
-                        748,
-                        704,
-                        651,
-                        609,
-                        565
-                    ],
-                    "name": "polygon"
-                }
-            },
-            {
-                "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "中幼红细胞"
-                },
-                "shape_attributes": {
-                    "all_points_x": [
-                        1256,
-                        1302,
-                        1353,
-                        1403,
-                        1434,
-                        1467,
-                        1500,
-                        1511,
-                        1491,
-                        1452,
-                        1392,
-                        1333,
-                        1284,
-                        1234,
-                        1199,
-                        1177,
-                        1163,
-                        1124,
-                        1119,
-                        1122,
-                        1159,
-                        1212
-                    ],
-                    "all_points_y": [
-                        394,
-                        378,
-                        376,
-                        402,
-                        442,
-                        493,
-                        537,
-                        609,
-                        669,
-                        710,
-                        726,
-                        741,
-                        763,
-                        765,
-                        743,
-                        693,
-                        660,
-                        636,
-                        572,
-                        541,
-                        464,
-                        413
-                    ],
-                    "name": "polygon"
-                }
-            },
-            {
-                "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "中幼红细胞"
-                },
-                "shape_attributes": {
-                    "all_points_x": [
-                        1447,
-                        1511,
-                        1562,
-                        1575,
-                        1586,
-                        1603,
-                        1608,
-                        1601,
-                        1562,
-                        1513,
-                        1458,
-                        1432,
-                        1337,
-                        1282,
-                        1247,
-                        1243,
-                        1245,
-                        1247,
-                        1269,
-                        1361,
-                        1383,
-                        1432
-                    ],
-                    "all_points_y": [
-                        754,
-                        772,
-                        803,
-                        845,
-                        906,
-                        957,
-                        1014,
-                        1080,
-                        1135,
-                        1133,
-                        1137,
-                        1148,
-                        1093,
-                        1029,
-                        1005,
-                        941,
-                        891,
-                        864,
-                        820,
-                        792,
-                        809,
-                        752
-                    ],
-                    "name": "polygon"
-                }
-            },
-            {
-                "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "晚幼红细胞"
-                },
-                "shape_attributes": {
-                    "all_points_x": [
-                        1584,
-                        1625,
-                        1663,
-                        1709,
-                        1715,
-                        1731,
-                        1766,
-                        1777,
-                        1768,
-                        1744,
-                        1698,
-                        1687,
-                        1632,
-                        1564,
-                        1537,
-                        1529,
-                        1509,
-                        1496,
-                        1502
-                    ],
-                    "all_points_y": [
-                        1163,
-                        1148,
-                        1108,
-                        1133,
-                        1183,
-                        1214,
-                        1207,
-                        1249,
-                        1291,
-                        1331,
-                        1364,
-                        1379,
-                        1397,
-                        1394,
-                        1377,
-                        1346,
-                        1304,
-                        1271,
-                        1216
-                    ],
-                    "name": "polygon"
-                }
-            },
-            {
-                "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "晚幼红细胞"
-                },
-                "shape_attributes": {
-                    "all_points_x": [
-                        1586,
-                        1645,
-                        1713,
-                        1777,
-                        1799,
-                        1786,
-                        1790,
-                        1757,
-                        1713,
-                        1682,
-                        1619,
-                        1573,
-                        1535,
-                        1496,
-                        1471,
-                        1469,
-                        1463,
-                        1524
-                    ],
-                    "all_points_y": [
-                        1447,
-                        1445,
-                        1436,
-                        1485,
-                        1522,
-                        1570,
-                        1601,
-                        1645,
-                        1680,
-                        1707,
-                        1733,
-                        1733,
-                        1704,
-                        1671,
-                        1595,
-                        1540,
-                        1511,
-                        1471
-                    ],
-                    "name": "polygon"
-                }
-            },
-            {
-                "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "晚幼红细胞"
-                },
-                "shape_attributes": {
-                    "all_points_x": [
-                        1757,
-                        1810,
-                        1863,
-                        1916,
-                        1944,
-                        1949,
-                        1962,
-                        1935,
-                        1927,
-                        1900,
-                        1841,
-                        1814,
-                        1764,
-                        1715,
-                        1669,
-                        1636,
-                        1636,
-                        1645,
-                        1674
-                    ],
-                    "all_points_y": [
-                        829,
-                        820,
-                        831,
-                        858,
-                        889,
-                        926,
-                        990,
-                        1025,
-                        1060,
-                        1115,
-                        1117,
-                        1135,
-                        1139,
-                        1135,
-                        1111,
-                        1067,
-                        1016,
-                        955,
-                        900
-                    ],
-                    "name": "polygon"
-                }
-            }
-        ],
-        "size": 295092
-    },
     "14.jpg": {
         "file_attributes": {},
         "filename": "14.jpg",
         "regions": [
             {
                 "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "中幼红细胞"
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u5e7c\u7ea2\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -1140,8 +954,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性晚幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u665a\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -1193,8 +1007,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "淋巴細胞系",
-                    "type": "成熟淋巴细胞"
+                    "super_type": "\u6dcb\u5df4\u7d30\u80de\u7cfb",
+                    "type": "\u6210\u719f\u6dcb\u5df4\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -1243,14 +1057,234 @@
         ],
         "size": 272483
     },
+    "15.jpg": {
+        "file_attributes": {},
+        "filename": "15.jpg",
+        "regions": [
+            {
+                "region_attributes": {
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u665a\u5e7c\u7c92\u7ec6\u80de"
+                },
+                "shape_attributes": {
+                    "all_points_x": [
+                        992,
+                        1056,
+                        1106,
+                        1157,
+                        1207,
+                        1212,
+                        1216,
+                        1190,
+                        1166,
+                        1117,
+                        1082,
+                        1036,
+                        994,
+                        944,
+                        895,
+                        849,
+                        809,
+                        757,
+                        728,
+                        710,
+                        688,
+                        691,
+                        697,
+                        702,
+                        724,
+                        774,
+                        849,
+                        880
+                    ],
+                    "all_points_y": [
+                        893,
+                        900,
+                        922,
+                        963,
+                        1023,
+                        1073,
+                        1174,
+                        1225,
+                        1273,
+                        1328,
+                        1372,
+                        1392,
+                        1410,
+                        1416,
+                        1423,
+                        1408,
+                        1388,
+                        1339,
+                        1313,
+                        1278,
+                        1212,
+                        1133,
+                        1093,
+                        1040,
+                        992,
+                        950,
+                        915,
+                        904
+                    ],
+                    "name": "polygon"
+                }
+            },
+            {
+                "region_attributes": {
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u5e7c\u7ea2\u7ec6\u80de"
+                },
+                "shape_attributes": {
+                    "all_points_x": [
+                        809,
+                        845,
+                        889,
+                        915,
+                        939,
+                        959,
+                        972,
+                        979,
+                        959,
+                        944,
+                        900,
+                        862,
+                        838,
+                        805,
+                        765,
+                        754,
+                        730,
+                        695,
+                        675,
+                        631,
+                        622,
+                        618,
+                        616,
+                        614,
+                        620,
+                        647,
+                        664,
+                        713,
+                        732
+                    ],
+                    "all_points_y": [
+                        596,
+                        609,
+                        609,
+                        627,
+                        638,
+                        669,
+                        715,
+                        772,
+                        807,
+                        829,
+                        829,
+                        827,
+                        847,
+                        853,
+                        860,
+                        873,
+                        889,
+                        886,
+                        895,
+                        849,
+                        827,
+                        783,
+                        750,
+                        739,
+                        713,
+                        660,
+                        642,
+                        611,
+                        603
+                    ],
+                    "name": "polygon"
+                }
+            },
+            {
+                "region_attributes": {
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u665a\u5e7c\u7ea2\u7ec6\u80de"
+                },
+                "shape_attributes": {
+                    "all_points_x": [
+                        1423,
+                        1425,
+                        1441,
+                        1438,
+                        1412,
+                        1379,
+                        1353,
+                        1339,
+                        1342,
+                        1339,
+                        1306,
+                        1278,
+                        1271,
+                        1247,
+                        1225,
+                        1221,
+                        1207,
+                        1196,
+                        1201,
+                        1225,
+                        1232,
+                        1243,
+                        1258,
+                        1298,
+                        1315,
+                        1346,
+                        1372,
+                        1403,
+                        1421,
+                        1432
+                    ],
+                    "all_points_y": [
+                        803,
+                        842,
+                        869,
+                        906,
+                        928,
+                        965,
+                        981,
+                        990,
+                        1025,
+                        1056,
+                        1056,
+                        1038,
+                        996,
+                        990,
+                        957,
+                        928,
+                        917,
+                        884,
+                        849,
+                        816,
+                        781,
+                        765,
+                        741,
+                        728,
+                        710,
+                        710,
+                        713,
+                        721,
+                        746,
+                        781
+                    ],
+                    "name": "polygon"
+                }
+            }
+        ],
+        "size": 250542
+    },
     "16.jpg": {
         "file_attributes": {},
         "filename": "16.jpg",
         "regions": [
             {
                 "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "早幼红细胞"
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u65e9\u5e7c\u7ea2\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -1332,8 +1366,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性中幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u4e2d\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -1408,14 +1442,442 @@
         ],
         "size": 276844
     },
+    "17.jpg": {
+        "file_attributes": {},
+        "filename": "17.jpg",
+        "regions": [
+            {
+                "region_attributes": {
+                    "super_type": "\u6dcb\u5df4\u7d30\u80de\u7cfb",
+                    "type": "\u6210\u719f\u6d46\u7ec6\u80de"
+                },
+                "shape_attributes": {
+                    "all_points_x": [
+                        688,
+                        752,
+                        825,
+                        908,
+                        935,
+                        963,
+                        981,
+                        985,
+                        983,
+                        948,
+                        922,
+                        889,
+                        860,
+                        827,
+                        792,
+                        754,
+                        721,
+                        662,
+                        625,
+                        596,
+                        561,
+                        532,
+                        523,
+                        517,
+                        506,
+                        504,
+                        499,
+                        512,
+                        559,
+                        596
+                    ],
+                    "all_points_y": [
+                        884,
+                        893,
+                        900,
+                        937,
+                        959,
+                        1005,
+                        1042,
+                        1097,
+                        1152,
+                        1212,
+                        1247,
+                        1269,
+                        1287,
+                        1295,
+                        1313,
+                        1317,
+                        1311,
+                        1298,
+                        1267,
+                        1256,
+                        1234,
+                        1194,
+                        1159,
+                        1128,
+                        1124,
+                        1056,
+                        1036,
+                        994,
+                        935,
+                        906
+                    ],
+                    "name": "polygon"
+                }
+            },
+            {
+                "region_attributes": {
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u5206\u53f6\u6838\u7c92\u7ec6\u80de"
+                },
+                "shape_attributes": {
+                    "all_points_x": [
+                        970,
+                        1023,
+                        1078,
+                        1144,
+                        1188,
+                        1218,
+                        1256,
+                        1287,
+                        1295,
+                        1280,
+                        1269,
+                        1238,
+                        1157,
+                        1130,
+                        1069,
+                        1003,
+                        952,
+                        935,
+                        917,
+                        902,
+                        904,
+                        906
+                    ],
+                    "all_points_y": [
+                        631,
+                        618,
+                        600,
+                        609,
+                        618,
+                        655,
+                        713,
+                        754,
+                        816,
+                        856,
+                        906,
+                        946,
+                        981,
+                        992,
+                        990,
+                        976,
+                        944,
+                        902,
+                        869,
+                        847,
+                        781,
+                        706
+                    ],
+                    "name": "polygon"
+                }
+            },
+            {
+                "region_attributes": {
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u6746\u72b6\u6838\u7c92\u7ec6\u80de"
+                },
+                "shape_attributes": {
+                    "all_points_x": [
+                        1869,
+                        1900,
+                        1920,
+                        1931,
+                        1942,
+                        1946,
+                        1922,
+                        1869,
+                        1817,
+                        1759,
+                        1724,
+                        1667,
+                        1625,
+                        1577,
+                        1546,
+                        1520,
+                        1491,
+                        1474,
+                        1465,
+                        1467,
+                        1474,
+                        1500,
+                        1526,
+                        1529,
+                        1540,
+                        1584,
+                        1636,
+                        1696,
+                        1755,
+                        1812,
+                        1847
+                    ],
+                    "all_points_y": [
+                        92,
+                        110,
+                        161,
+                        213,
+                        266,
+                        328,
+                        387,
+                        429,
+                        468,
+                        486,
+                        488,
+                        484,
+                        471,
+                        455,
+                        424,
+                        402,
+                        387,
+                        361,
+                        299,
+                        251,
+                        207,
+                        163,
+                        130,
+                        79,
+                        53,
+                        48,
+                        37,
+                        29,
+                        22,
+                        35,
+                        59
+                    ],
+                    "name": "polygon"
+                }
+            },
+            {
+                "region_attributes": {
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u5206\u53f6\u6838\u7c92\u7ec6\u80de"
+                },
+                "shape_attributes": {
+                    "all_points_x": [
+                        1234,
+                        1265,
+                        1359,
+                        1425,
+                        1485,
+                        1526,
+                        1553,
+                        1584,
+                        1601,
+                        1608,
+                        1584,
+                        1551,
+                        1456,
+                        1392,
+                        1324,
+                        1271,
+                        1216,
+                        1194,
+                        1170,
+                        1161,
+                        1161,
+                        1199
+                    ],
+                    "all_points_y": [
+                        1091,
+                        1060,
+                        1045,
+                        1053,
+                        1064,
+                        1093,
+                        1119,
+                        1157,
+                        1225,
+                        1280,
+                        1337,
+                        1401,
+                        1467,
+                        1469,
+                        1469,
+                        1458,
+                        1423,
+                        1375,
+                        1322,
+                        1298,
+                        1225,
+                        1144
+                    ],
+                    "name": "polygon"
+                }
+            },
+            {
+                "region_attributes": {
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u665a\u5e7c\u7ea2\u7ec6\u80de"
+                },
+                "shape_attributes": {
+                    "all_points_x": [
+                        1315,
+                        1375,
+                        1410,
+                        1452,
+                        1489,
+                        1511,
+                        1524,
+                        1502,
+                        1445,
+                        1397,
+                        1344,
+                        1291,
+                        1249,
+                        1221,
+                        1201,
+                        1188,
+                        1183,
+                        1199,
+                        1227,
+                        1276
+                    ],
+                    "all_points_y": [
+                        1557,
+                        1555,
+                        1555,
+                        1568,
+                        1608,
+                        1643,
+                        1687,
+                        1795,
+                        1836,
+                        1845,
+                        1852,
+                        1856,
+                        1845,
+                        1825,
+                        1790,
+                        1724,
+                        1676,
+                        1619,
+                        1575,
+                        1555
+                    ],
+                    "name": "polygon"
+                }
+            },
+            {
+                "region_attributes": {
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u6746\u72b6\u6838\u7c92\u7ec6\u80de"
+                },
+                "shape_attributes": {
+                    "all_points_x": [
+                        1843,
+                        1896,
+                        1938,
+                        1966,
+                        1988,
+                        1960,
+                        1931,
+                        1865,
+                        1808,
+                        1731,
+                        1632,
+                        1597,
+                        1579,
+                        1557,
+                        1553,
+                        1575,
+                        1603,
+                        1647,
+                        1678,
+                        1726,
+                        1764
+                    ],
+                    "all_points_y": [
+                        1196,
+                        1212,
+                        1256,
+                        1311,
+                        1401,
+                        1513,
+                        1568,
+                        1581,
+                        1603,
+                        1634,
+                        1614,
+                        1588,
+                        1537,
+                        1482,
+                        1432,
+                        1368,
+                        1317,
+                        1262,
+                        1227,
+                        1199,
+                        1188
+                    ],
+                    "name": "polygon"
+                }
+            },
+            {
+                "region_attributes": {
+                    "super_type": "\u5de8\u6838\u7d30\u80de\u7cfb",
+                    "type": "\u6210\u719f\u5355\u6838\u7ec6\u80de"
+                },
+                "shape_attributes": {
+                    "all_points_x": [
+                        1944,
+                        1986,
+                        2050,
+                        2107,
+                        2129,
+                        2147,
+                        2142,
+                        2105,
+                        2070,
+                        1990,
+                        1940,
+                        1781,
+                        1663,
+                        1625,
+                        1595,
+                        1592,
+                        1698,
+                        1762,
+                        1852
+                    ],
+                    "all_points_y": [
+                        1559,
+                        1546,
+                        1557,
+                        1579,
+                        1619,
+                        1691,
+                        1746,
+                        1810,
+                        1852,
+                        1887,
+                        1909,
+                        1918,
+                        1916,
+                        1894,
+                        1817,
+                        1755,
+                        1689,
+                        1638,
+                        1599
+                    ],
+                    "name": "polygon"
+                }
+            }
+        ],
+        "size": 344700
+    },
     "18.jpg": {
         "file_attributes": {},
         "filename": "18.jpg",
         "regions": [
             {
                 "region_attributes": {
-                    "super_type": "淋巴細胞系",
-                    "type": "成熟淋巴细胞"
+                    "super_type": "\u6dcb\u5df4\u7d30\u80de\u7cfb",
+                    "type": "\u6210\u719f\u6dcb\u5df4\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -1467,8 +1929,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性晚幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u665a\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -1528,8 +1990,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性晚幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u665a\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -1587,8 +2049,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "中幼红细胞"
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u5e7c\u7ea2\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -1669,609 +2131,264 @@
         ],
         "size": 334253
     },
-    "2.jpg": {
+    "19.jpg": {
         "file_attributes": {},
-        "filename": "2.jpg",
+        "filename": "19.jpg",
         "regions": [
             {
                 "region_attributes": {
-                    "name": "cell",
-                    "super_type": "紅細胞系",
-                    "type": "晚幼红细胞"
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u5e7c\u7ea2\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
-                        264,
-                        331,
-                        387,
-                        422,
-                        443,
-                        454,
-                        463,
-                        469,
-                        463,
-                        417,
-                        378,
-                        329,
-                        277,
-                        225,
-                        175,
-                        123,
-                        112,
-                        91,
-                        74,
-                        86,
-                        106,
-                        134,
-                        145,
-                        212,
-                        223
-                    ],
-                    "all_points_y": [
-                        683,
-                        688,
-                        696,
-                        733,
-                        768,
-                        802,
-                        839,
-                        886,
-                        941,
-                        988,
-                        1001,
-                        1021,
-                        1025,
-                        1021,
-                        1021,
-                        971,
-                        941,
-                        904,
-                        886,
-                        858,
-                        830,
-                        796,
-                        759,
-                        718,
-                        698
-                    ],
-                    "name": "polygon"
-                }
-            },
-            {
-                "region_attributes": {
-                    "name": "cell",
-                    "super_type": "粒細胞系",
-                    "type": "中性晚幼粒细胞"
-                },
-                "shape_attributes": {
-                    "all_points_x": [
-                        1558,
-                        1594,
-                        1630,
-                        1669,
-                        1693,
-                        1728,
-                        1763,
-                        1778,
-                        1801,
-                        1814,
-                        1804,
-                        1803,
-                        1786,
-                        1761,
-                        1745,
-                        1722,
-                        1701,
-                        1673,
-                        1611,
-                        1578,
-                        1545,
-                        1518,
-                        1492,
-                        1464,
-                        1430,
-                        1415,
-                        1392,
-                        1379,
-                        1382,
-                        1379,
-                        1379,
-                        1395,
-                        1419,
-                        1443,
-                        1473,
-                        1502
-                    ],
-                    "all_points_y": [
-                        78,
-                        68,
-                        75,
-                        88,
-                        88,
-                        105,
-                        134,
-                        166,
-                        205,
-                        257,
-                        295,
-                        333,
-                        373,
-                        401,
-                        415,
-                        435,
-                        447,
-                        467,
-                        486,
-                        477,
-                        467,
-                        455,
-                        445,
-                        424,
-                        399,
-                        381,
-                        347,
-                        311,
-                        280,
-                        248,
-                        209,
-                        173,
-                        150,
-                        117,
-                        95,
-                        85
-                    ],
-                    "name": "polygon"
-                }
-            },
-            {
-                "region_attributes": {
-                    "name": "cell",
-                    "super_type": "粒細胞系",
-                    "type": "中性杆状核粒细胞"
-                },
-                "shape_attributes": {
-                    "all_points_x": [
-                        1505,
-                        1522,
-                        1550,
-                        1578,
-                        1623,
-                        1681,
-                        1721,
-                        1756,
-                        1779,
-                        1815,
-                        1852,
-                        1870,
-                        1872,
-                        1859,
-                        1829,
-                        1799,
-                        1747,
-                        1710,
-                        1659,
-                        1625,
-                        1573,
-                        1550,
-                        1519,
-                        1501,
-                        1489,
-                        1492
-                    ],
-                    "all_points_y": [
-                        690,
-                        656,
-                        640,
-                        627,
-                        615,
-                        613,
-                        614,
-                        631,
-                        662,
-                        683,
-                        712,
-                        734,
-                        773,
-                        803,
-                        886,
-                        923,
-                        959,
-                        972,
-                        976,
-                        969,
-                        937,
-                        905,
-                        875,
-                        840,
-                        793,
-                        744
-                    ],
-                    "name": "polygon"
-                }
-            },
-            {
-                "region_attributes": {
-                    "name": "cell",
-                    "super_type": "紅細胞系",
-                    "type": "晚幼紅細胞(子母核)"
-                },
-                "shape_attributes": {
-                    "all_points_x": [
-                        1785,
-                        1795,
-                        1822,
-                        1852,
-                        1871,
-                        1868,
-                        1852,
-                        1812,
-                        1797,
-                        1785,
-                        1735,
-                        1682,
-                        1636,
-                        1604,
-                        1588,
-                        1581,
-                        1575,
-                        1548,
-                        1577,
-                        1699,
-                        1735
-                    ],
-                    "all_points_y": [
-                        1640,
-                        1679,
-                        1694,
-                        1711,
-                        1741,
-                        1772,
-                        1813,
-                        1849,
-                        1874,
-                        1910,
-                        1919,
-                        1919,
-                        1916,
-                        1910,
-                        1885,
-                        1855,
-                        1821,
-                        1715,
-                        1662,
-                        1632,
-                        1629
-                    ],
-                    "name": "polygon"
-                }
-            },
-            {
-                "region_attributes": {
-                    "name": "cell",
-                    "super_type": "淋巴細胞系",
-                    "type": "成熟淋巴细胞"
-                },
-                "shape_attributes": {
-                    "all_points_x": [
-                        2254,
-                        2288,
-                        2303,
-                        2316,
-                        2332,
-                        2329,
-                        2328,
-                        2324,
-                        2305,
-                        2286,
-                        2283,
-                        2265,
-                        2246,
-                        2218,
-                        2201,
-                        2169,
-                        2136,
-                        2115,
-                        2084,
-                        2066,
-                        2066,
-                        2067,
-                        2066,
-                        2048,
-                        2045,
-                        2060,
-                        2074,
-                        2094,
-                        2099,
-                        2129,
-                        2136,
-                        2145,
-                        2142,
-                        2145,
-                        2164,
-                        2190,
-                        2211,
-                        2217,
-                        2220
-                    ],
-                    "all_points_y": [
-                        457,
-                        477,
-                        529,
-                        551,
-                        590,
-                        639,
-                        676,
-                        711,
-                        763,
-                        794,
-                        817,
-                        848,
-                        853,
-                        866,
-                        881,
-                        885,
-                        875,
-                        859,
-                        859,
-                        836,
-                        800,
-                        777,
-                        754,
-                        729,
-                        714,
-                        699,
-                        690,
-                        659,
-                        640,
-                        614,
-                        592,
-                        565,
-                        548,
-                        519,
-                        507,
-                        493,
-                        474,
-                        458,
-                        455
-                    ],
-                    "name": "polygon"
-                }
-            }
-        ],
-        "size": 294006
-    },
-    "20.jpg": {
-        "file_attributes": {},
-        "filename": "20.jpg",
-        "regions": [
-            {
-                "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性分叶核粒细胞"
-                },
-                "shape_attributes": {
-                    "all_points_x": [
-                        1078,
-                        1115,
-                        1177,
-                        1262,
-                        1289,
-                        1317,
-                        1328,
-                        1322,
-                        1313,
-                        1249,
-                        1179,
-                        1133,
-                        1071,
-                        1012,
-                        959,
-                        935,
-                        919,
-                        904,
-                        897,
-                        933,
-                        972,
-                        1018
-                    ],
-                    "all_points_y": [
-                        1403,
-                        1399,
-                        1408,
-                        1447,
-                        1491,
-                        1548,
-                        1597,
-                        1658,
-                        1720,
-                        1768,
-                        1795,
-                        1810,
-                        1808,
-                        1806,
-                        1773,
-                        1733,
-                        1691,
-                        1671,
-                        1619,
-                        1524,
-                        1467,
-                        1430
-                    ],
-                    "name": "polygon"
-                }
-            },
-            {
-                "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性晚幼粒细胞"
-                },
-                "shape_attributes": {
-                    "all_points_x": [
-                        1170,
-                        1218,
-                        1267,
-                        1333,
-                        1410,
-                        1469,
-                        1546,
-                        1592,
-                        1595,
-                        1601,
-                        1581,
-                        1507,
-                        1460,
-                        1397,
-                        1331,
-                        1260,
-                        1194,
-                        1170,
-                        1155
-                    ],
-                    "all_points_y": [
-                        1042,
-                        996,
-                        961,
-                        946,
-                        957,
-                        972,
-                        992,
-                        1091,
-                        1137,
-                        1218,
-                        1284,
-                        1357,
-                        1377,
-                        1386,
-                        1386,
-                        1364,
-                        1298,
-                        1258,
-                        1216
-                    ],
-                    "name": "polygon"
-                }
-            },
-            {
-                "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "中幼红细胞"
-                },
-                "shape_attributes": {
-                    "all_points_x": [
-                        1003,
-                        1020,
-                        1060,
-                        1102,
-                        1146,
-                        1212,
-                        1254,
-                        1302,
-                        1331,
-                        1333,
-                        1333,
-                        1322,
-                        1291,
-                        1269,
-                        1234,
-                        1196,
-                        1172,
-                        1117,
-                        1073,
-                        998,
-                        981,
-                        963,
-                        952,
-                        946,
-                        979
-                    ],
-                    "all_points_y": [
-                        442,
-                        409,
-                        400,
-                        387,
-                        383,
-                        398,
-                        420,
-                        440,
-                        486,
-                        526,
-                        581,
-                        614,
-                        644,
-                        669,
+                        647,
                         686,
-                        682,
-                        693,
-                        713,
-                        688,
-                        644,
-                        638,
-                        625,
-                        585,
-                        526,
-                        462
-                    ],
-                    "name": "polygon"
-                }
-            },
-            {
-                "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性杆状核粒细胞"
-                },
-                "shape_attributes": {
-                    "all_points_x": [
-                        1555,
-                        1627,
-                        1665,
-                        1713,
-                        1762,
-                        1799,
-                        1806,
-                        1808,
-                        1790,
-                        1764,
-                        1726,
-                        1678,
-                        1621,
-                        1590,
-                        1544,
-                        1507,
-                        1465,
-                        1447,
-                        1445,
-                        1456,
-                        1485
-                    ],
-                    "all_points_y": [
-                        405,
-                        396,
-                        398,
-                        411,
-                        438,
-                        484,
-                        561,
-                        629,
-                        684,
-                        732,
-                        765,
-                        787,
+                        746,
                         794,
-                        790,
+                        856,
+                        937,
+                        1001,
+                        1025,
+                        1058,
+                        1049,
+                        1045,
+                        968,
+                        915,
+                        869,
+                        818,
                         774,
                         748,
-                        684,
-                        622,
+                        695,
+                        647,
+                        607,
+                        589,
+                        574,
+                        565,
+                        550
+                    ],
+                    "all_points_y": [
+                        1518,
+                        1469,
+                        1447,
+                        1436,
+                        1438,
+                        1469,
+                        1504,
+                        1548,
+                        1638,
+                        1678,
+                        1751,
+                        1830,
+                        1898,
+                        1909,
+                        1913,
+                        1911,
+                        1902,
+                        1896,
+                        1876,
+                        1845,
+                        1808,
+                        1764,
+                        1715,
+                        1663
+                    ],
+                    "name": "polygon"
+                }
+            },
+            {
+                "region_attributes": {
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u5e7c\u7ea2\u7ec6\u80de"
+                },
+                "shape_attributes": {
+                    "all_points_x": [
+                        889,
+                        862,
+                        812,
+                        759,
+                        724,
+                        671,
+                        658,
+                        633,
+                        603,
                         567,
-                        499,
-                        451
+                        572,
+                        627,
+                        666,
+                        684,
+                        741,
+                        787,
+                        856,
+                        919,
+                        959,
+                        970,
+                        983,
+                        992,
+                        959,
+                        915
+                    ],
+                    "all_points_y": [
+                        1254,
+                        1282,
+                        1280,
+                        1289,
+                        1289,
+                        1256,
+                        1207,
+                        1185,
+                        1150,
+                        1058,
+                        996,
+                        941,
+                        930,
+                        886,
+                        869,
+                        878,
+                        900,
+                        930,
+                        979,
+                        1036,
+                        1128,
+                        1183,
+                        1227,
+                        1247
+                    ],
+                    "name": "polygon"
+                }
+            },
+            {
+                "region_attributes": {
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u5206\u53f6\u6838\u7c92\u7ec6\u80de"
+                },
+                "shape_attributes": {
+                    "all_points_x": [
+                        1394,
+                        1416,
+                        1445,
+                        1449,
+                        1452,
+                        1414,
+                        1379,
+                        1339,
+                        1309,
+                        1262,
+                        1205,
+                        1137,
+                        1075,
+                        1056,
+                        1031,
+                        1023,
+                        1025,
+                        1029,
+                        1045,
+                        1071,
+                        1119,
+                        1170,
+                        1240,
+                        1293,
+                        1346
+                    ],
+                    "all_points_y": [
+                        347,
+                        383,
+                        433,
+                        486,
+                        550,
+                        642,
+                        675,
+                        693,
+                        708,
+                        719,
+                        724,
+                        713,
+                        669,
+                        620,
+                        576,
+                        532,
+                        486,
+                        433,
+                        394,
+                        350,
+                        319,
+                        290,
+                        273,
+                        275,
+                        312
+                    ],
+                    "name": "polygon"
+                }
+            },
+            {
+                "region_attributes": {
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u6746\u72b6\u6838\u7c92\u7ec6\u80de"
+                },
+                "shape_attributes": {
+                    "all_points_x": [
+                        1946,
+                        1986,
+                        2026,
+                        2072,
+                        2129,
+                        2182,
+                        2228,
+                        2239,
+                        2259,
+                        2267,
+                        2278,
+                        2281,
+                        2256,
+                        2226,
+                        2191,
+                        2129,
+                        2065,
+                        2017,
+                        1971,
+                        1933,
+                        1898,
+                        1852,
+                        1839,
+                        1799,
+                        1799,
+                        1801,
+                        1836
+                    ],
+                    "all_points_y": [
+                        1432,
+                        1412,
+                        1401,
+                        1394,
+                        1408,
+                        1438,
+                        1471,
+                        1509,
+                        1555,
+                        1586,
+                        1647,
+                        1709,
+                        1757,
+                        1810,
+                        1832,
+                        1854,
+                        1872,
+                        1874,
+                        1874,
+                        1865,
+                        1830,
+                        1797,
+                        1751,
+                        1647,
+                        1610,
+                        1562,
+                        1507
                     ],
                     "name": "polygon"
                 }
             }
         ],
-        "size": 350508
+        "size": 326714
     },
     "21.jpg": {
         "file_attributes": {},
@@ -2279,8 +2396,8 @@
         "regions": [
             {
                 "region_attributes": {
-                    "super_type": "淋巴細胞系",
-                    "type": "成熟淋巴细胞"
+                    "super_type": "\u6dcb\u5df4\u7d30\u80de\u7cfb",
+                    "type": "\u6210\u719f\u6dcb\u5df4\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -2336,8 +2453,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性分叶核粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u5206\u53f6\u6838\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -2399,8 +2516,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性晚幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u665a\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -2460,8 +2577,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "中幼红细胞"
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u5e7c\u7ea2\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -2522,8 +2639,8 @@
         "regions": [
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性中幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u4e2d\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -2579,8 +2696,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "淋巴細胞系",
-                    "type": "成熟淋巴细胞"
+                    "super_type": "\u6dcb\u5df4\u7d30\u80de\u7cfb",
+                    "type": "\u6210\u719f\u6dcb\u5df4\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -2632,8 +2749,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性杆状核粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u6746\u72b6\u6838\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -2701,8 +2818,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性晚幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u665a\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -2765,8 +2882,8 @@
         "regions": [
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性中幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u4e2d\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -2838,8 +2955,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "淋巴細胞系",
-                    "type": "成熟淋巴细胞"
+                    "super_type": "\u6dcb\u5df4\u7d30\u80de\u7cfb",
+                    "type": "\u6210\u719f\u6dcb\u5df4\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -2890,8 +3007,8 @@
         "regions": [
             {
                 "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "晚幼红细胞"
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u665a\u5e7c\u7ea2\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -2947,8 +3064,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "淋巴細胞系",
-                    "type": "成熟淋巴细胞"
+                    "super_type": "\u6dcb\u5df4\u7d30\u80de\u7cfb",
+                    "type": "\u6210\u719f\u6dcb\u5df4\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -3000,8 +3117,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性杆状核粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u6746\u72b6\u6838\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -3053,8 +3170,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性中幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u4e2d\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -3133,8 +3250,8 @@
         "regions": [
             {
                 "region_attributes": {
-                    "super_type": "嗜碱粒细胞系",
-                    "type": "嗜碱性粒细胞"
+                    "super_type": "\u55dc\u78b1\u7c92\u7ec6\u80de\u7cfb",
+                    "type": "\u55dc\u78b1\u6027\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -3213,8 +3330,8 @@
         "regions": [
             {
                 "region_attributes": {
-                    "super_type": "嗜碱粒细胞系",
-                    "type": "嗜碱性粒细胞"
+                    "super_type": "\u55dc\u78b1\u7c92\u7ec6\u80de\u7cfb",
+                    "type": "\u55dc\u78b1\u6027\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -3276,8 +3393,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性中幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u4e2d\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -3332,8 +3449,8 @@
         "regions": [
             {
                 "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "晚幼红细胞"
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u665a\u5e7c\u7ea2\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -3389,8 +3506,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "中幼红细胞"
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u5e7c\u7ea2\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -3456,8 +3573,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "嗜酸粒細胞系",
-                    "type": "嗜酸性晚幼粒细胞"
+                    "super_type": "\u55dc\u9178\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u55dc\u9178\u6027\u665a\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -3509,8 +3626,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "淋巴細胞系",
-                    "type": "成熟淋巴细胞"
+                    "super_type": "\u6dcb\u5df4\u7d30\u80de\u7cfb",
+                    "type": "\u6210\u719f\u6dcb\u5df4\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -3563,8 +3680,8 @@
         "regions": [
             {
                 "region_attributes": {
-                    "super_type": "淋巴細胞系",
-                    "type": "成熟淋巴细胞"
+                    "super_type": "\u6dcb\u5df4\u7d30\u80de\u7cfb",
+                    "type": "\u6210\u719f\u6dcb\u5df4\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -3614,8 +3731,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "原始红细胞"
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u539f\u59cb\u7ea2\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -3697,8 +3814,8 @@
             {
                 "region_attributes": {
                     "name": "cell",
-                    "super_type": "巨噬細胞系",
-                    "type": "成熟单核细胞"
+                    "super_type": "\u5de8\u566c\u7d30\u80de\u7cfb",
+                    "type": "\u6210\u719f\u5355\u6838\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -3799,8 +3916,8 @@
         "regions": [
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性分叶核粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u5206\u53f6\u6838\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -3868,8 +3985,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "早幼红细胞"
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u65e9\u5e7c\u7ea2\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -3965,8 +4082,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性分叶核粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u5206\u53f6\u6838\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -4029,8 +4146,8 @@
         "regions": [
             {
                 "region_attributes": {
-                    "super_type": "淋巴細胞系",
-                    "type": "成熟淋巴细胞"
+                    "super_type": "\u6dcb\u5df4\u7d30\u80de\u7cfb",
+                    "type": "\u6210\u719f\u6dcb\u5df4\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -4080,8 +4197,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性杆状核粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u6746\u72b6\u6838\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -4131,8 +4248,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "淋巴細胞系",
-                    "type": "成熟浆细胞"
+                    "super_type": "\u6dcb\u5df4\u7d30\u80de\u7cfb",
+                    "type": "\u6210\u719f\u6d46\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -4231,8 +4348,8 @@
         "regions": [
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性晚幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u665a\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -4296,8 +4413,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性分叶核粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u5206\u53f6\u6838\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -4358,8 +4475,8 @@
         "regions": [
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性杆状核粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u6746\u72b6\u6838\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -4425,8 +4542,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性中幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u4e2d\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -4488,8 +4605,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性晚幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u665a\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -4549,8 +4666,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "晚幼红细胞"
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u665a\u5e7c\u7ea2\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -4610,8 +4727,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性晚幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u665a\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -4700,8 +4817,8 @@
         "regions": [
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性晚幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u665a\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -4759,8 +4876,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "巨噬細胞系",
-                    "type": "成熟单核细胞"
+                    "super_type": "\u5de8\u566c\u7d30\u80de\u7cfb",
+                    "type": "\u6210\u719f\u5355\u6838\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -4828,8 +4945,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "晚幼红细胞"
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u665a\u5e7c\u7ea2\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -4875,8 +4992,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "淋巴細胞系",
-                    "type": "成熟淋巴细胞"
+                    "super_type": "\u6dcb\u5df4\u7d30\u80de\u7cfb",
+                    "type": "\u6210\u719f\u6dcb\u5df4\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -4922,8 +5039,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性杆状核粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u6746\u72b6\u6838\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -4986,236 +5103,14 @@
         ],
         "size": 315619
     },
-    "36.jpg": {
-        "file_attributes": {},
-        "filename": "36.jpg",
-        "regions": [
-            {
-                "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "晚幼红细胞"
-                },
-                "shape_attributes": {
-                    "all_points_x": [
-                        732,
-                        717,
-                        697,
-                        697,
-                        737,
-                        757,
-                        809,
-                        845,
-                        902,
-                        974,
-                        1007,
-                        1020,
-                        1036,
-                        1042,
-                        1047,
-                        1020,
-                        979,
-                        935,
-                        880,
-                        818,
-                        768
-                    ],
-                    "all_points_y": [
-                        820,
-                        785,
-                        750,
-                        708,
-                        662,
-                        625,
-                        565,
-                        556,
-                        554,
-                        574,
-                        614,
-                        664,
-                        717,
-                        785,
-                        836,
-                        915,
-                        944,
-                        965,
-                        965,
-                        955,
-                        926
-                    ],
-                    "name": "polygon"
-                }
-            },
-            {
-                "region_attributes": {
-                    "super_type": "巨噬細胞系",
-                    "type": "成熟单核细胞"
-                },
-                "shape_attributes": {
-                    "all_points_x": [
-                        1370,
-                        1432,
-                        1465,
-                        1535,
-                        1586,
-                        1647,
-                        1667,
-                        1667,
-                        1689,
-                        1722,
-                        1746,
-                        1764,
-                        1759,
-                        1768,
-                        1773,
-                        1784,
-                        1830,
-                        1845,
-                        1845,
-                        1841,
-                        1806,
-                        1781,
-                        1735,
-                        1663,
-                        1599,
-                        1456,
-                        1392,
-                        1350,
-                        1335,
-                        1335
-                    ],
-                    "all_points_y": [
-                        651,
-                        594,
-                        570,
-                        556,
-                        552,
-                        563,
-                        541,
-                        512,
-                        501,
-                        488,
-                        497,
-                        517,
-                        541,
-                        570,
-                        605,
-                        642,
-                        691,
-                        728,
-                        772,
-                        838,
-                        908,
-                        965,
-                        1020,
-                        1040,
-                        1045,
-                        1018,
-                        955,
-                        893,
-                        816,
-                        750
-                    ],
-                    "name": "polygon"
-                }
-            },
-            {
-                "region_attributes": {
-                    "super_type": "淋巴細胞系",
-                    "type": "成熟淋巴细胞"
-                },
-                "shape_attributes": {
-                    "all_points_x": [
-                        2316,
-                        2331,
-                        2329,
-                        2338,
-                        2360,
-                        2380,
-                        2393,
-                        2406,
-                        2419,
-                        2432,
-                        2430,
-                        2430,
-                        2428,
-                        2397,
-                        2382,
-                        2355,
-                        2320,
-                        2256,
-                        2226,
-                        2184,
-                        2171,
-                        2158,
-                        2149,
-                        2116,
-                        2096,
-                        2138,
-                        2171,
-                        2191,
-                        2213,
-                        2230,
-                        2230,
-                        2221,
-                        2215,
-                        2241,
-                        2261,
-                        2283,
-                        2303
-                    ],
-                    "all_points_y": [
-                        1163,
-                        1133,
-                        1104,
-                        1086,
-                        1091,
-                        1091,
-                        1093,
-                        1115,
-                        1155,
-                        1236,
-                        1280,
-                        1322,
-                        1375,
-                        1419,
-                        1460,
-                        1500,
-                        1546,
-                        1557,
-                        1559,
-                        1575,
-                        1568,
-                        1540,
-                        1540,
-                        1537,
-                        1502,
-                        1476,
-                        1394,
-                        1368,
-                        1372,
-                        1337,
-                        1324,
-                        1311,
-                        1278,
-                        1240,
-                        1238,
-                        1234,
-                        1214
-                    ],
-                    "name": "polygon"
-                }
-            }
-        ],
-        "size": 298425
-    },
     "37.jpg": {
         "file_attributes": {},
         "filename": "37.jpg",
         "regions": [
             {
                 "region_attributes": {
-                    "super_type": "淋巴細胞系",
-                    "type": "成熟淋巴细胞"
+                    "super_type": "\u6dcb\u5df4\u7d30\u80de\u7cfb",
+                    "type": "\u6210\u719f\u6dcb\u5df4\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -5269,8 +5164,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性中幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u4e2d\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -5338,8 +5233,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "淋巴細胞系",
-                    "type": "成熟淋巴细胞"
+                    "super_type": "\u6dcb\u5df4\u7d30\u80de\u7cfb",
+                    "type": "\u6210\u719f\u6dcb\u5df4\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -5389,8 +5284,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性晚幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u665a\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -5455,8 +5350,8 @@
         "regions": [
             {
                 "region_attributes": {
-                    "super_type": "淋巴細胞系",
-                    "type": "成熟淋巴细胞"
+                    "super_type": "\u6dcb\u5df4\u7d30\u80de\u7cfb",
+                    "type": "\u6210\u719f\u6dcb\u5df4\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -5528,8 +5423,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性杆状核粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u6746\u72b6\u6838\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -5589,8 +5484,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性晚幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u665a\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -5650,8 +5545,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "晚幼红细胞"
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u665a\u5e7c\u7ea2\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -5701,8 +5596,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "中幼红细胞"
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u5e7c\u7ea2\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -5767,8 +5662,8 @@
         "regions": [
             {
                 "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "晚幼红细胞"
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u665a\u5e7c\u7ea2\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -5822,8 +5717,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性分叶核粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u5206\u53f6\u6838\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -5893,8 +5788,8 @@
             },
             {
                 "region_attributes": {
-                    "super_type": "巨噬細胞系",
-                    "type": "成熟单核细胞"
+                    "super_type": "\u5de8\u566c\u7d30\u80de\u7cfb",
+                    "type": "\u6210\u719f\u5355\u6838\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -5949,323 +5844,334 @@
         ],
         "size": 290140
     },
-    "40.jpg": {
+    "4.jpg": {
         "file_attributes": {},
-        "filename": "40.jpg",
+        "filename": "4.jpg",
         "regions": [
             {
                 "region_attributes": {
-                    "super_type": "淋巴細胞系",
-                    "type": "原始淋巴细胞"
+                    "name": "cell",
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u665a\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
-                        391,
-                        345,
-                        323,
-                        297,
-                        290,
-                        288,
-                        308,
-                        336,
-                        354,
-                        380,
-                        416,
-                        455,
-                        479,
-                        519,
-                        552,
-                        596,
-                        638,
-                        680,
-                        695,
-                        717,
-                        704,
-                        666,
-                        664,
-                        664,
-                        607,
-                        554,
-                        519,
-                        508,
-                        479,
-                        451
-                    ],
-                    "all_points_y": [
-                        919,
-                        851,
-                        794,
-                        710,
-                        647,
-                        603,
-                        563,
-                        550,
-                        515,
-                        508,
-                        519,
-                        539,
-                        548,
-                        556,
-                        565,
-                        589,
-                        614,
-                        671,
-                        735,
-                        825,
-                        869,
-                        963,
-                        996,
-                        1038,
-                        1069,
-                        1038,
-                        1014,
-                        985,
-                        974,
-                        965
-                    ],
-                    "name": "polygon"
-                }
-            },
-            {
-                "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性分叶核粒细胞"
-                },
-                "shape_attributes": {
-                    "all_points_x": [
-                        704,
-                        699,
-                        710,
-                        732,
-                        770,
-                        812,
-                        886,
-                        974,
-                        1064,
-                        1126,
-                        1161,
-                        1155,
-                        1146,
-                        1139,
-                        1124,
-                        1097,
-                        1062,
-                        1016,
-                        946,
-                        882,
-                        774,
-                        732
-                    ],
-                    "all_points_y": [
-                        1568,
-                        1498,
-                        1438,
-                        1381,
-                        1357,
-                        1348,
-                        1357,
-                        1368,
-                        1364,
-                        1372,
-                        1397,
-                        1454,
-                        1533,
-                        1586,
-                        1630,
-                        1685,
-                        1724,
-                        1770,
-                        1775,
-                        1775,
-                        1718,
-                        1678
-                    ],
-                    "name": "polygon"
-                }
-            },
-            {
-                "region_attributes": {
-                    "super_type": "紅細胞系",
-                    "type": "晚幼红细胞"
-                },
-                "shape_attributes": {
-                    "all_points_x": [
-                        1172,
-                        1170,
-                        1172,
-                        1163,
-                        1168,
-                        1192,
-                        1240,
-                        1276,
-                        1315,
-                        1388,
-                        1443,
-                        1496,
-                        1511,
-                        1515,
-                        1493,
-                        1465,
-                        1427,
-                        1377,
-                        1335,
-                        1300,
-                        1251,
-                        1205
-                    ],
-                    "all_points_y": [
-                        933,
-                        873,
-                        858,
-                        842,
-                        796,
-                        743,
-                        732,
-                        721,
-                        717,
-                        719,
-                        748,
-                        790,
-                        829,
-                        886,
-                        930,
-                        976,
-                        990,
                         1034,
-                        1031,
-                        1027,
-                        1005,
-                        979
-                    ],
-                    "name": "polygon"
-                }
-            },
-            {
-                "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性杆状核粒细胞"
-                },
-                "shape_attributes": {
-                    "all_points_x": [
-                        1940,
-                        1885,
-                        1814,
-                        1764,
-                        1711,
-                        1676,
-                        1645,
-                        1616,
-                        1599,
-                        1595,
-                        1603,
-                        1614,
-                        1645,
-                        1674,
-                        1689,
-                        1726,
-                        1786,
-                        1839,
-                        1889,
-                        1960,
-                        2030,
-                        2045,
-                        2063,
-                        2065,
-                        2028,
-                        1995
+                        1059,
+                        1082,
+                        1095,
+                        1108,
+                        1110,
+                        1114,
+                        1114,
+                        1114,
+                        1107,
+                        1095,
+                        1085,
+                        1069,
+                        1059,
+                        1044,
+                        978,
+                        963,
+                        912,
+                        889,
+                        805,
+                        786,
+                        727,
+                        711,
+                        672,
+                        642,
+                        614,
+                        595,
+                        581,
+                        564,
+                        542,
+                        540,
+                        540,
+                        548,
+                        575,
+                        586,
+                        606,
+                        635,
+                        670,
+                        696,
+                        751,
+                        793,
+                        845,
+                        899,
+                        930
                     ],
                     "all_points_y": [
-                        642,
-                        644,
-                        642,
-                        633,
-                        618,
-                        592,
-                        567,
-                        537,
-                        504,
-                        457,
-                        398,
-                        352,
-                        323,
-                        295,
-                        273,
-                        244,
-                        229,
-                        227,
-                        227,
-                        246,
-                        295,
-                        341,
-                        400,
-                        460,
-                        548,
-                        594
+                        1051,
+                        1089,
+                        1119,
+                        1155,
+                        1193,
+                        1220,
+                        1254,
+                        1286,
+                        1311,
+                        1340,
+                        1353,
+                        1387,
+                        1405,
+                        1432,
+                        1456,
+                        1496,
+                        1509,
+                        1544,
+                        1551,
+                        1551,
+                        1562,
+                        1541,
+                        1540,
+                        1503,
+                        1474,
+                        1457,
+                        1437,
+                        1422,
+                        1393,
+                        1330,
+                        1296,
+                        1262,
+                        1199,
+                        1138,
+                        1107,
+                        1059,
+                        1023,
+                        1001,
+                        994,
+                        969,
+                        960,
+                        966,
+                        979,
+                        993
                     ],
                     "name": "polygon"
                 }
             },
             {
                 "region_attributes": {
-                    "super_type": "粒細胞系",
-                    "type": "中性中幼粒细胞"
+                    "name": "cell",
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u4e2d\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
-                        1900,
-                        1907,
-                        1924,
-                        1962,
-                        2008,
-                        2100,
-                        2127,
-                        2208,
-                        2294,
-                        2333,
-                        2386,
-                        2408,
-                        2426,
-                        2435,
-                        2437,
-                        2421,
-                        2355,
-                        2309,
-                        2232,
-                        2140,
-                        2012,
-                        1973,
-                        1898
+                        1261,
+                        1333,
+                        1393,
+                        1424,
+                        1454,
+                        1520,
+                        1551,
+                        1569,
+                        1570,
+                        1560,
+                        1556,
+                        1528,
+                        1515,
+                        1500,
+                        1468,
+                        1415,
+                        1361,
+                        1333,
+                        1257,
+                        1223,
+                        1179,
+                        1130,
+                        1107,
+                        1078,
+                        1066,
+                        1050,
+                        1023,
+                        1019,
+                        1009,
+                        1016,
+                        1034,
+                        1054,
+                        1101,
+                        1155,
+                        1196,
+                        1232
+                    ],
+                    "all_points_y": [
+                        236,
+                        232,
+                        252,
+                        274,
+                        296,
+                        345,
+                        381,
+                        421,
+                        462,
+                        516,
+                        553,
+                        620,
+                        638,
+                        667,
+                        701,
+                        733,
+                        746,
+                        758,
+                        767,
+                        761,
+                        748,
+                        716,
+                        696,
+                        661,
+                        638,
+                        617,
+                        570,
+                        531,
+                        487,
+                        437,
+                        380,
+                        333,
+                        292,
+                        258,
+                        238,
+                        238
+                    ],
+                    "name": "polygon"
+                }
+            },
+            {
+                "region_attributes": {
+                    "name": "cell",
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u5e7c\u7ea2\u7ec6\u80de"
+                },
+                "shape_attributes": {
+                    "all_points_x": [
+                        1232,
+                        1242,
+                        1257,
+                        1261,
+                        1261,
+                        1261,
+                        1255,
+                        1252,
+                        1248,
+                        1240,
+                        1213,
+                        1189,
+                        1167,
+                        1130,
+                        1103,
+                        1072,
+                        1038,
+                        1020,
+                        994,
+                        984,
+                        972,
+                        963,
+                        963,
+                        966,
+                        971,
+                        975,
+                        993,
+                        1010,
+                        1064,
+                        1079,
+                        1106,
+                        1139
                     ],
                     "all_points_y": [
                         1529,
-                        1474,
-                        1430,
-                        1386,
-                        1333,
-                        1280,
-                        1282,
-                        1282,
-                        1304,
-                        1328,
-                        1383,
-                        1423,
-                        1487,
-                        1553,
-                        1619,
-                        1678,
-                        1768,
-                        1801,
-                        1828,
-                        1825,
-                        1801,
-                        1753,
-                        1656
+                        1557,
+                        1572,
+                        1597,
+                        1632,
+                        1660,
+                        1688,
+                        1705,
+                        1726,
+                        1755,
+                        1781,
+                        1779,
+                        1774,
+                        1786,
+                        1786,
+                        1786,
+                        1781,
+                        1762,
+                        1742,
+                        1732,
+                        1715,
+                        1698,
+                        1688,
+                        1674,
+                        1639,
+                        1611,
+                        1579,
+                        1572,
+                        1554,
+                        1542,
+                        1528,
+                        1506
+                    ],
+                    "name": "polygon"
+                }
+            },
+            {
+                "region_attributes": {
+                    "name": "cell",
+                    "super_type": "\u6dcb\u5df4\u7d30\u80de\u7cfb",
+                    "type": "\u6210\u719f\u6dcb\u5df4\u7ec6\u80de"
+                },
+                "shape_attributes": {
+                    "all_points_x": [
+                        1852,
+                        1893,
+                        1916,
+                        1952,
+                        1984,
+                        1991,
+                        1976,
+                        1950,
+                        1924,
+                        1902,
+                        1856,
+                        1821,
+                        1784,
+                        1748,
+                        1727,
+                        1708,
+                        1699,
+                        1688,
+                        1701,
+                        1721,
+                        1768
+                    ],
+                    "all_points_y": [
+                        928,
+                        934,
+                        955,
+                        981,
+                        1006,
+                        1041,
+                        1086,
+                        1150,
+                        1160,
+                        1173,
+                        1189,
+                        1189,
+                        1185,
+                        1157,
+                        1139,
+                        1116,
+                        1079,
+                        1050,
+                        1003,
+                        972,
+                        930
                     ],
                     "name": "polygon"
                 }
             }
         ],
-        "size": 318518
+        "size": 298993
     },
     "5.jpg": {
         "file_attributes": {},
@@ -6274,8 +6180,8 @@
             {
                 "region_attributes": {
                     "name": "cell",
-                    "super_type": "淋巴細胞系",
-                    "type": "成熟淋巴细胞"
+                    "super_type": "\u6dcb\u5df4\u7d30\u80de\u7cfb",
+                    "type": "\u6210\u719f\u6dcb\u5df4\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -6324,8 +6230,8 @@
             {
                 "region_attributes": {
                     "name": "cell",
-                    "super_type": "粒細胞系",
-                    "type": "中性分叶核粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u5206\u53f6\u6838\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -6388,8 +6294,8 @@
             {
                 "region_attributes": {
                     "name": "cell",
-                    "super_type": "粒細胞系",
-                    "type": "中性分叶核粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u5206\u53f6\u6838\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -6450,271 +6356,6 @@
         ],
         "size": 284400
     },
-    "6.jpg": {
-        "file_attributes": {},
-        "filename": "6.jpg",
-        "regions": [
-            {
-                "region_attributes": {
-                    "name": "cell",
-                    "super_type": "紅細胞系",
-                    "type": "中幼红细胞"
-                },
-                "shape_attributes": {
-                    "all_points_x": [
-                        1350,
-                        1396,
-                        1427,
-                        1469,
-                        1503,
-                        1547,
-                        1592,
-                        1589,
-                        1588,
-                        1564,
-                        1550,
-                        1528,
-                        1500,
-                        1471,
-                        1452,
-                        1421,
-                        1374,
-                        1336,
-                        1302,
-                        1264,
-                        1237,
-                        1210,
-                        1202,
-                        1186,
-                        1173,
-                        1167,
-                        1167,
-                        1198,
-                        1210,
-                        1227,
-                        1292
-                    ],
-                    "all_points_y": [
-                        972,
-                        981,
-                        994,
-                        1015,
-                        1045,
-                        1081,
-                        1167,
-                        1205,
-                        1245,
-                        1267,
-                        1305,
-                        1325,
-                        1342,
-                        1364,
-                        1384,
-                        1393,
-                        1391,
-                        1378,
-                        1369,
-                        1362,
-                        1339,
-                        1317,
-                        1284,
-                        1251,
-                        1215,
-                        1164,
-                        1132,
-                        1085,
-                        1050,
-                        1018,
-                        993
-                    ],
-                    "name": "polygon"
-                }
-            },
-            {
-                "region_attributes": {
-                    "name": "cell",
-                    "super_type": "紅細胞系",
-                    "type": "中幼红细胞"
-                },
-                "shape_attributes": {
-                    "all_points_x": [
-                        1402,
-                        1447,
-                        1479,
-                        1501,
-                        1501,
-                        1523,
-                        1532,
-                        1563,
-                        1573,
-                        1579,
-                        1572,
-                        1563,
-                        1563,
-                        1547,
-                        1515,
-                        1481,
-                        1462,
-                        1430,
-                        1397,
-                        1367,
-                        1323,
-                        1295,
-                        1270,
-                        1242,
-                        1223,
-                        1207,
-                        1191,
-                        1172,
-                        1155,
-                        1155,
-                        1150,
-                        1148,
-                        1148,
-                        1142,
-                        1141,
-                        1155,
-                        1176,
-                        1205,
-                        1258,
-                        1287,
-                        1342,
-                        1364
-                    ],
-                    "all_points_y": [
-                        418,
-                        409,
-                        409,
-                        431,
-                        471,
-                        482,
-                        513,
-                        529,
-                        575,
-                        630,
-                        655,
-                        683,
-                        720,
-                        751,
-                        799,
-                        817,
-                        839,
-                        843,
-                        843,
-                        843,
-                        843,
-                        843,
-                        839,
-                        825,
-                        809,
-                        792,
-                        770,
-                        754,
-                        727,
-                        689,
-                        660,
-                        625,
-                        591,
-                        564,
-                        532,
-                        504,
-                        465,
-                        435,
-                        411,
-                        399,
-                        394,
-                        387
-                    ],
-                    "name": "polygon"
-                }
-            },
-            {
-                "region_attributes": {
-                    "name": "cell",
-                    "super_type": "粒細胞系",
-                    "type": "中性分叶核粒细胞"
-                },
-                "shape_attributes": {
-                    "all_points_x": [
-                        1919,
-                        1954,
-                        1975,
-                        1988,
-                        2003,
-                        2006,
-                        2013,
-                        2012,
-                        2003,
-                        1966,
-                        1937,
-                        1913,
-                        1884,
-                        1856,
-                        1831,
-                        1790,
-                        1736,
-                        1702,
-                        1667,
-                        1635,
-                        1619,
-                        1595,
-                        1592,
-                        1585,
-                        1584,
-                        1586,
-                        1604,
-                        1608,
-                        1641,
-                        1664,
-                        1683,
-                        1721,
-                        1749,
-                        1803,
-                        1866
-                    ],
-                    "all_points_y": [
-                        582,
-                        620,
-                        654,
-                        688,
-                        740,
-                        781,
-                        828,
-                        877,
-                        922,
-                        966,
-                        988,
-                        1001,
-                        1018,
-                        1034,
-                        1042,
-                        1048,
-                        1045,
-                        1026,
-                        1007,
-                        971,
-                        940,
-                        891,
-                        847,
-                        808,
-                        771,
-                        733,
-                        676,
-                        644,
-                        588,
-                        573,
-                        563,
-                        544,
-                        529,
-                        523,
-                        545
-                    ],
-                    "name": "polygon"
-                }
-            }
-        ],
-        "size": 284104
-    },
     "7.jpg": {
         "file_attributes": {},
         "filename": "7.jpg",
@@ -6722,8 +6363,8 @@
             {
                 "region_attributes": {
                     "name": "cell",
-                    "super_type": "紅細胞系",
-                    "type": "中幼红细胞"
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u5e7c\u7ea2\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -6812,8 +6453,8 @@
             {
                 "region_attributes": {
                     "name": "cell",
-                    "super_type": "粒細胞系",
-                    "type": "中性晚幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u665a\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -6886,8 +6527,8 @@
             {
                 "region_attributes": {
                     "name": "cell",
-                    "super_type": "粒細胞系",
-                    "type": "中性中幼粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u4e2d\u5e7c\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -6981,8 +6622,8 @@
             {
                 "region_attributes": {
                     "name": "cell",
-                    "super_type": "粒細胞系",
-                    "type": "中性分叶核粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u5206\u53f6\u6838\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -7043,8 +6684,8 @@
             {
                 "region_attributes": {
                     "name": "cell",
-                    "super_type": "紅細胞系",
-                    "type": "晚幼红细胞"
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u665a\u5e7c\u7ea2\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -7109,8 +6750,8 @@
             {
                 "region_attributes": {
                     "name": "cell",
-                    "super_type": "巨噬細胞系",
-                    "type": "幼稚单核细胞"
+                    "super_type": "\u5de8\u566c\u7d30\u80de\u7cfb",
+                    "type": "\u5e7c\u7a1a\u5355\u6838\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -7191,8 +6832,8 @@
             {
                 "region_attributes": {
                     "name": "cell",
-                    "super_type": "紅細胞系",
-                    "type": "中幼红细胞"
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u5e7c\u7ea2\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -7261,8 +6902,8 @@
             {
                 "region_attributes": {
                     "name": "cell",
-                    "super_type": "粒細胞系",
-                    "type": "中性分叶核粒细胞"
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u5206\u53f6\u6838\u7c92\u7ec6\u80de"
                 },
                 "shape_attributes": {
                     "all_points_x": [
@@ -7324,5 +6965,162 @@
             }
         ],
         "size": 286601
+    },
+    "9.jpg": {
+        "file_attributes": {},
+        "filename": "9.jpg",
+        "regions": [
+            {
+                "region_attributes": {
+                    "name": "cell",
+                    "super_type": "\u7c92\u7d30\u80de\u7cfb",
+                    "type": "\u4e2d\u6027\u4e2d\u5e7c\u7c92\u7ec6\u80de"
+                },
+                "shape_attributes": {
+                    "all_points_x": [
+                        522,
+                        570,
+                        610,
+                        639,
+                        660,
+                        676,
+                        682,
+                        685,
+                        670,
+                        658,
+                        608,
+                        585,
+                        540,
+                        497,
+                        460,
+                        406,
+                        367,
+                        330,
+                        302,
+                        268,
+                        254,
+                        243,
+                        252,
+                        283,
+                        330,
+                        391,
+                        487
+                    ],
+                    "all_points_y": [
+                        531,
+                        531,
+                        559,
+                        586,
+                        630,
+                        685,
+                        730,
+                        779,
+                        839,
+                        868,
+                        931,
+                        955,
+                        953,
+                        960,
+                        963,
+                        952,
+                        935,
+                        912,
+                        881,
+                        856,
+                        811,
+                        733,
+                        683,
+                        619,
+                        564,
+                        528,
+                        521
+                    ],
+                    "name": "polygon"
+                }
+            },
+            {
+                "region_attributes": {
+                    "name": "cell",
+                    "super_type": "\u7d05\u7d30\u80de\u7cfb",
+                    "type": "\u65e9\u5e7c\u7ea2\u7ec6\u80de"
+                },
+                "shape_attributes": {
+                    "all_points_x": [
+                        1301,
+                        1368,
+                        1409,
+                        1474,
+                        1537,
+                        1584,
+                        1629,
+                        1711,
+                        1773,
+                        1805,
+                        1803,
+                        1802,
+                        1781,
+                        1754,
+                        1717,
+                        1686,
+                        1661,
+                        1622,
+                        1564,
+                        1497,
+                        1422,
+                        1384,
+                        1339,
+                        1308,
+                        1267,
+                        1235,
+                        1220,
+                        1210,
+                        1208,
+                        1213,
+                        1198,
+                        1205,
+                        1192,
+                        1176
+                    ],
+                    "all_points_y": [
+                        521,
+                        516,
+                        510,
+                        503,
+                        525,
+                        544,
+                        573,
+                        633,
+                        696,
+                        730,
+                        803,
+                        846,
+                        867,
+                        874,
+                        899,
+                        916,
+                        935,
+                        972,
+                        994,
+                        1000,
+                        1004,
+                        991,
+                        976,
+                        959,
+                        931,
+                        893,
+                        852,
+                        812,
+                        777,
+                        724,
+                        688,
+                        651,
+                        611,
+                        575
+                    ],
+                    "name": "polygon"
+                }
+            }
+        ],
+        "size": 280946
     }
 }

@@ -62,7 +62,7 @@ def convert(VIA_ORIGINAL_ANNOTATIONS_NAME, imgdir, annpath):
 
     # Get the name(type) and supercategory(super_type) from VIA ANNOTATION
     # You need to modify the attributes depend on your VIA format
-    annotations = json.load(open(VIA_ORIGINAL_ANNOTATIONS_NAME))
+    annotations = json.load(open(VIA_ORIGINAL_ANNOTATIONS_NAME, encoding="utf-8"))
     annotations = list(annotations.values())  # don't need the dict keys
     annotations = [a for a in annotations if a['regions']]
     name_supercategory_dict = {}
@@ -118,7 +118,7 @@ def convert(VIA_ORIGINAL_ANNOTATIONS_NAME, imgdir, annpath):
     coco_output['annotations'] = []
     ##########################################################################################################
 
-    ann = json.load(open(annpath))
+    ann = json.load(open(annpath, encoding="utf-8"))
     # annotations id start from zero
     ann_id = 0
     # in VIA annotations, [key]['filename'] are image name
@@ -164,7 +164,7 @@ def convert(VIA_ORIGINAL_ANNOTATIONS_NAME, imgdir, annpath):
 
 # automatic split train and val
 def train_val_split(annos_name, original_dir, train_dir, val_dir, move):
-    annotations = json.load(open(annos_name))
+    annotations = json.load(open(annos_name, encoding="utf-8"))
     annotations = list(annotations.values())
 
     # The VIA tool saves images in the JSON even if they don't have any
@@ -192,17 +192,17 @@ def train_val_split(annos_name, original_dir, train_dir, val_dir, move):
         for i in val_index:
             shutil.copyfile(original_dir + total_images[i],
                             val_dir + total_images[i])
-            val_annos[str(i)] = annotations[i]
+            val_annos[annotations[i]['filename']] = annotations[i]
         for i in train_index:
             shutil.copyfile(original_dir + total_images[i],
                             train_dir + total_images[i])
-            train_annos[str(i)] = annotations[i]
+            train_annos[annotations[i]['filename']] = annotations[i]
     # not move images to train, val folder
     else:
         for i in val_index:
-            val_annos[str(i)] = annotations[i]
+            val_annos[annotations[i]['filename']] = annotations[i]
         for i in train_index:
-            train_annos[str(i)] = annotations[i]
+            train_annos[annotations[i]['filename']] = annotations[i]
 
     return train_annos, val_annos
 
@@ -213,11 +213,11 @@ if __name__ == '__main__':
                                                      CELL_DATASET_TRAIN_IMG_PATH, CELL_DATASET_VAL_IMG_PATH, move=True)
 
     # save VIA annotations
-    with open(CELL_DATASET_TRAIN_IMG_PATH + 'VIA_train_annos.json', 'w') as outfile:
-        json.dump(VIA_train_annos, outfile, sort_keys=True, indent=4)
+    with open(CELL_DATASET_TRAIN_IMG_PATH + 'VIA_train_annos.json', 'w', encoding="utf-8") as outfile:
+        json.dump(VIA_train_annos, outfile, sort_keys=True, indent=4, ensure_ascii=False)
 
-    with open(CELL_DATASET_VAL_IMG_PATH + 'VIA_val_annos.json', 'w') as outfile:
-        json.dump(VIA_val_annos, outfile, sort_keys=True, indent=4)
+    with open(CELL_DATASET_VAL_IMG_PATH + 'VIA_val_annos.json', 'w', encoding="utf-8") as outfile:
+        json.dump(VIA_val_annos, outfile, sort_keys=True, indent=4, ensure_ascii=False)
 
     # convert VIA annotations to COCO annotations
     COCO_train_annos = convert(ANNOTATIONS_NAME, CELL_DATASET_TRAIN_IMG_PATH,
@@ -226,8 +226,8 @@ if __name__ == '__main__':
                              CELL_DATASET_VAL_IMG_PATH + 'VIA_val_annos.json')
     
     # save COCO annotations
-    with open(CELL_DATASET_TRAIN_IMG_PATH + 'COCO_train_annos.json', 'w') as outfile:
-        json.dump(COCO_train_annos, outfile, sort_keys=True, indent=4)
+    with open(CELL_DATASET_TRAIN_IMG_PATH + 'COCO_train_annos.json', 'w', encoding="utf-8") as outfile:
+        json.dump(COCO_train_annos, outfile, sort_keys=True, indent=4, ensure_ascii=False)
 
-    with open(CELL_DATASET_VAL_IMG_PATH + 'COCO_val_annos.json', 'w') as outfile:
-        json.dump(COCO_val_annos, outfile, sort_keys=True, indent=4)
+    with open(CELL_DATASET_VAL_IMG_PATH + 'COCO_val_annos.json', 'w', encoding="utf-8") as outfile:
+        json.dump(COCO_val_annos, outfile, sort_keys=True, indent=4, ensure_ascii=False)
